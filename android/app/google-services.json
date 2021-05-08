@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "131710228897",
+    "firebase_url": "https://foodizwall.firebaseio.com",
+    "project_id": "foodizwall",
+    "storage_bucket": "foodizwall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131710228897:android:40482ee5e654c406d593e0",
+        "android_client_info": {
+          "package_name": "com.Foodiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131710228897-7su6tar2dn27d8ru7lpq3m1mctuo3dv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwlDQ6Mjs6jQaOEWydd1zGK0xd-ImV7ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131710228897-7su6tar2dn27d8ru7lpq3m1mctuo3dv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

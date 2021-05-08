@@ -1,0 +1,421 @@
+name: Butomy
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.5.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  geocoder: ^0.2.1
+  jiffy: ^3.0.1
+  bubble: ^1.1.9+1
+  persistent_bottom_nav_bar: ^2.0.5
+  firebase_auth: ^0.16.1
+  firebase_database: ^3.1.6
+  cloud_firestore: ^0.13.6
+  pin_code_text_field: ^1.3.6
+  simple_animations: ^1.3.3
+  after_layout: ^1.0.7+2
+  google_maps_flutter: ^0.5.19+2
+  carousel_slider: ^2.0.0
+  bloc_pattern:
+  flutter_slidable: ^0.4.9
+  flutter_rating: ^0.0.2
+  smooth_star_rating: 1.1.1
+  rxdart:
+  carousel_pro: ^1.0.0
+  cached_network_image: ^2.2.0+1
+  shimmer: ^0.0.6
+  flutube: ^0.8.3
+  flare_flutter: ^2.0.6
+  flutter_credit_card:
+  credit_card: ^0.1.6
+  flutter_rating_bar: ^3.0.1+1
+  fluttertoast: ^7.0.1
+  font_awesome_flutter: ^8.5.0
+  eva_icons_flutter: ^2.0.0
+  percent_indicator: ^1.0.15
+  flutter_svg: ^0.17.0
+  #provider: ^2.0.0
+  #  share: ^0.6.3+5
+  share: ^0.6.5
+  flutter_sparkline: ^0.1.0
+  multi_image_picker:
+  shared_preferences: ^0.5.8
+#  chewie: 0.9.10
+  mvc_pattern: ^6.3.0
+  image_picker: ^0.6.7+4
+  url_launcher: ^5.5.0
+  image_cropper: ^1.3.1
+  flutter_datetime_picker:
+#  path_provider: ^1.6.9
+  barcode_scan: ^3.0.1
+  qr_flutter: ^3.1.0
+  flutter_google_places: ^0.2.5
+  google_maps_webservice: ^0.0.17
+  esys_flutter_share:
+  qr_code_scanner: ^0.0.13
+  firebase_storage: ^3.0.0
+  google_map_location_picker: ^3.3.5
+  flutter_localizations:
+    sdk: flutter
+  uuid: ^2.2.2
+  flutter_sliding_up_panel:
+  inview_notifier_list:
+  smart_text_view: ^0.1.0
+  hashtagable: ^1.0.3
+  location: ^3.0.0
+#  permission_handler: ^4.4.0+hotfix.2
+#  android_intent: ^0.3.6+12
+  flutter_absolute_path: ^1.0.6
+  firebase_messaging: ^6.0.13
+  flutter_local_notifications: ^1.4.3
+  flutter_app_badger: ^1.1.2
+  flutter_widgets: ^0.1.7+1
+  photo_view: ^0.9.2
+  webview_flutter:
+  timeago: ^2.0.21
+  flutter_dotenv: ^2.0.3
+  transparent_image: ^1.0.0
+  firebase_core: 0.4.4
+  filesize: ^1.0.4
+  simple_url_preview: ^1.1.0
+  multiple_select: ^0.1.23
+  pin_code_fields:
+  extended_tabs: ^0.2.3
+  date_format: ^1.0.9
+  pull_to_refresh: ^1.6.3
+  scrollable_positioned_list: ^0.1.10
+  video_player: '>=0.10.0 <2.0.0'
+  vimeoplayer: ^0.0.1
+  video_trimmer:
+  flutter_ffmpeg: ^0.2.10
+#  flutter_ffmpeg: ^0.3.0
+  video_thumbnail: ^0.2.4
+  path_provider: ^1.6.24
+  path: ^1.7.0
+  youtube_player_flutter:
+  flutter_document_picker:
+  razorpay_flutter: ^1.2.2
+
+
+#  file_picker:
+#  image_collage_widget: ^0.0.1
+#  flutter_file_manager:
+#  equatable:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  fonts:
+    - family : Lemon
+      fonts:
+        - asset: assets/font/Lemon-Regular.ttf
+          weight: 400
+    - family : Sofia
+      fonts:
+        - asset: assets/font/Sofia/SofiaProBold.otf
+          weight: 900
+        - asset: assets/font/Sofia/SofiaProSemiBold.otf
+          weight: 800
+        - asset: assets/font/Sofia/SofiaProMedium.otf
+          weight: 700
+        - asset: assets/font/Sofia/SofiaProRegular.otf
+          weight: 600
+        - asset: assets/font/Sofia/SofiaProLight.otf
+          weight: 500
+        - asset: assets/font/Sofia/SofiaProExtraLight.otf
+          weight: 400
+        - asset: assets/font/Sofia/SofiaProUltraLight.otf
+          weight: 300
+    - family : Poppins
+      fonts:
+        - asset: assets/font/Poppins/Poppins-ExtraBold.otf
+          weight: 900
+        - asset: assets/font/Poppins/Poppins-Bold.otf
+          weight: 800
+        - asset: assets/font/Poppins/Poppins-SemiBold.otf
+          weight: 700
+        - asset: assets/font/Poppins/Poppins-Medium.otf
+          weight: 600
+        - asset: assets/font/Poppins/Poppins-Regular.otf
+          weight: 500
+        - asset: assets/font/Poppins/Poppins-Light.otf
+          weight: 400
+        - asset: assets/font/Poppins/Poppins-ExtraLight.otf
+          weight: 300
+        - asset: assets/font/Poppins/Poppins-Thin.otf
+          weight: 200
+    - family : home
+      fonts:
+        - asset: assets/custom_icon/ic_home.ttf
+    - family : hearth
+      fonts:
+        - asset: assets/custom_icon/ic_hearth.ttf
+    - family : service
+      fonts:
+        - asset: assets/custom_icon/ic_service.ttf
+    - family : myorder
+      fonts:
+        - asset: assets/custom_icon/ic_myorder.ttf
+    - family : profile
+      fonts:
+        - asset: assets/custom_icon/ic_profile.ttf
+    - family : location
+      fonts:
+        - asset: assets/custom_icon/ic_location.ttf
+
+
+  assets:
+    - assets/Template1/image/SplashScreenTemplate1.png
+    - assets/Template1/image/icon.png
+    - assets/welcome tile.png
+    - assets/Template1/dummy-staff.jpg
+    - assets/chef.png
+    - assets/tray.png
+    - assets/image/india.jpg
+    - assets/image/uae.jpg
+    - assets/Template1/image/Foodie/icon.png
+    - assets/Template1/image/Foodie/wait.png
+    - assets/Template1/image/Foodie/card.png
+    - assets/Template1/image/Foodie/valid.png
+    - assets/Template1/image/Foodie/visa.png
+    - assets/Template1/image/Foodie/netbank.png
+    - assets/Template1/image/Foodie/refund.png
+    - assets/Template1/image/Foodie/gpay.png
+    - assets/Template1/image/Foodie/icons/bell.png
+    - assets/star.png
+    - assets/Template1/image/Foodie/icons/verified_user.png
+    - assets/Template1/image/Foodie/icons/qr_icon.png
+    - assets/Template1/image/Foodie/icons/money.png
+    - assets/Template1/image/Foodie/icons/privacy.png
+    - assets/Template1/image/Foodie/icons/down-arrow.png
+    - assets/Template1/image/Foodie/icons/right_arrow.png
+    - assets/Template1/image/Foodie/icons/meal.png
+    - assets/Template1/image/Foodie/icons/video_upload.png
+    - assets/Template1/image/Foodie/icons/up-arrow.png
+    - assets/Template1/image/Foodie/icons/cart.png
+    - assets/Template1/image/Foodie/icons/edit.png
+    - assets/Template1/image/Foodie/icons/search_screen.png
+    - assets/Template1/image/Foodie/icons/chat.png
+    - assets/Template1/image/Foodie/icons/home.png
+    - assets/Template1/image/Foodie/icons/pencil.png
+    - assets/Template1/image/Foodie/icons/Menu.png
+    - assets/Template1/image/Foodie/icons/add_image.png
+    - assets/Template1/image/Foodie/icons/blog.png
+    - assets/Template1/image/Foodie/icons/list.png
+    - assets/Template1/image/Foodie/icons/bell.png
+    - assets/Template1/image/Foodie/icons/add-item.png
+    - assets/Template1/image/Foodie/icons/eye.png
+    - assets/Template1/image/Foodie/icons/google-symbol.png
+    - assets/Template1/image/Foodie/icons/youtube.png
+    - assets/Template1/image/Foodie/icons/add-item-plus.png
+    - assets/Template1/image/Foodie/icons/right-arrow.png
+    - assets/Template1/image/Foodie/icons/compliance.png
+    - assets/Template1/image/Foodie/icons/image.png
+    - assets/Template1/image/Foodie/icons/inventory.png
+    - assets/Template1/image/Foodie/icons/partner.png
+    - assets/Template1/image/Foodie/icons/settings.png
+    - assets/Template1/image/Foodie/icons/foodbank member badge.png
+    - assets/Template1/image/Foodie/icons/shield.png
+    - assets/Template1/image/Foodie/icons/past-orders.png
+    - assets/Template1/image/Foodie/icons/refer-a-friend.png
+    - assets/Template1/image/Foodie/icons/TERMS-AND-POLICY.png
+    - assets/Template1/image/Foodie/icons/report-a-problem.png
+    - assets/Template1/image/Foodie/icons/help and support.png
+    - assets/Template1/image/Foodie/icons/add to basket.png
+    - assets/Template1/image/Foodie/icons/Food-Bank.png
+    - assets/Template1/image/Foodie/icons/butomy logo.png
+    - assets/Template1/image/Foodie/icons/Food-Bank-1.png
+    - assets/Template1/image/Foodie/icons/restaurent-wall.png
+    - assets/Template1/image/Foodie/icons/home-kitchen.png
+    - assets/Template1/image/Foodie/icons/order-list.png
+    - assets/Template1/image/Foodie/icons/Delivery-Warrior.png
+    - assets/Template1/image/Foodie/icons/point-of-contact.png
+    - assets/Template1/image/Foodie/icons/person.png
+    - assets/Template1/image/Foodie/icons/file.png
+    - assets/Template1/image/Foodie/icons/qr code ico.png
+    - assets/Template1/image/Foodie/icons/shop.png
+    - assets/Template1/image/Foodie/icons/wall.png
+    - assets/Template1/image/Foodie/icons/reports.png
+    - assets/Template1/image/Foodie/icons/ICONS.png
+    - assets/Template1/image/Foodie/icons/search.png
+    - assets/Template1/image/Foodie/icons/rating.png
+    - assets/Template1/image/Foodie/icons/location.png
+    - assets/Template1/image/Foodie/icons/Videos.png
+    - assets/Template1/image/Foodie/icons/market.png
+    - assets/Template1/image/Foodie/icons/share.png
+    - assets/Template1/image/Foodie/icons/shopping-basket.png
+    - assets/Template1/image/Foodie/buschef.png
+    - assets/Template1/image/Foodie/foodizwall_logo.png
+    - assets/Template1/image/Foodie/scanner.png
+    - assets/Template1/image/Foodie/busreview.png
+    - assets/Template1/image/Foodie/user_dummy.jpeg
+    - assets/Template1/image/Foodie/post_dummy.jpeg
+    - assets/Template1/image/Foodie/video.png
+    - assets/Template1/image/Foodie/kitchen_back.jpg
+    - assets/Template1/image/Foodie/rest_back.jpeg
+    - assets/Template1/image/Foodie/store_back.jpg
+    - assets/Template1/image/Foodie/youtube.png
+    - assets/Template1/image/Foodie/logo.png
+    - assets/Template1/image/Foodie/blurer.jpg
+    - assets/Template1/image/Foodie/logo_Business.png
+    - assets/Template1/image/Foodie/icu.png
+    - assets/Template1/image/Foodie/video1.png
+    - assets/Template1/image/Foodie/menu1.png
+    - assets/Template1/image/Foodie/qr-code.png
+    - assets/Template1/image/Foodie/arabian.png
+    - assets/Template1/image/Foodie/delivery_man.png
+    - assets/Template1/image/Foodie/biriyani.jpg
+    - assets/Template1/image/Foodie/butomy.jpg
+    - assets/Template1/image/Foodie/wtsp.png
+    - assets/Template1/image/Foodie/refer.jpg
+    - assets/Template1/image/Foodie/ref.jpg
+    - assets/Template1/image/Foodie/location.jpg
+    - assets/Template1/image/Foodie/reff.jpg
+    - assets/Template1/image/Foodie/cake.jpeg
+    - assets/Template1/image/Foodie/snack.jpg
+    - assets/Template1/image/Foodie/shakes.jpg
+    - assets/Template1/image/Foodie/chinese.jpg
+    - assets/Template1/image/Foodie/send.png
+    - assets/Template1/image/Foodie/QRcode.png
+    - assets/Template1/image/onBoarding1.jpeg
+    - assets/Template1/image/onBoarding2.jpeg
+    - assets/Template1/image/onBoarding3.jpeg
+    - assets/Template1/image/chosseBackground.jpeg
+    - assets/Template1/image/loginBackground.jpeg
+    - assets/Template1/image/marker.png
+    - assets/Template1/image/profileBackground.png
+    - assets/Template1/image/backgroundProfile.png
+    - assets/Template1/image/backgroundLine.png
+
+    - assets/Template1/map_style.txt
+    - assets/icon/profile.png
+    - assets/icon/box.png
+    - assets/icon/notification.png
+    - assets/icon/notificationIlustration.png
+    - assets/icon/callCenterIlustration.png
+    - assets/icon/discount.png
+    - assets/icon/card.png
+    - assets/icon/callCenter.png
+    - assets/icon/setting.png
+    - assets/icon/style.png
+    - assets/icon/breakfast.png
+    - assets/icon/caffe.png
+    - assets/icon/dinner.png
+    - assets/icon/healty.png
+    - assets/icon/Lunch.png
+    - assets/icon/fashfood.png
+
+    - assets/image/image_recipe/recipe1.jpg
+    - assets/image/image_recipe/recipe2.jpg
+    - assets/image/image_recipe/recipe3.jpg
+    - assets/image/image_recipe/recipe4.jpg
+    - assets/image/image_recipe/recipe5.png
+    - assets/image/image_recipe/recipe6.png
+    - assets/image/image_recipe/recipe7.png
+    - assets/image/image_recipe/recipe8.png
+    - assets/image/image_recipe/recipe9.jpg
+    - assets/image/image_recipe/recipe10.jpg
+    - assets/image/image_recipe/recipe11.jpg
+    - assets/image/image_recipe/recipe12.jpg
+    - assets/image/image_recipe/recipe13.jpg
+    - assets/image/image_recipe/recipe14.jpg
+    - assets/image/image_recipe/recipe15.jpg
+    - assets/image/image_recipe/recipe16.jpg
+    - assets/image/image_recipe/recipe17.jpg
+    - assets/image/image_recipe/recipe18.jpg
+    - assets/image/image_recipe/recipe19.jpg
+    - assets/image/image_recipe/recipe20.jpg
+    - assets/image/image_recipe/recipe21.jpg
+    - assets/image/image_recipe/recipe22.jpg
+    - assets/image/image_recipe/recipe23.jpg
+    - assets/image/image_recipe/recipe24.jpg
+    - assets/image/image_recipe/recipe25.jpg
+    - assets/image/image_recipe/recipe26.jpg
+    - assets/image/image_recipe/recipe27.jpg
+    - assets/image/image_recipe/recipe28.jpg
+    - assets/image/image_recipe/recipe29.jpg
+    - assets/image/image_recipe/recipe30.jpg
+    - assets/image/image_recipe/recipe31.jpg
+    - assets/image/image_recipe/recipe32.jpg
+    - assets/image/image_recipe/recipe33.jpg
+    - assets/image/image_recipe/recipe34.jpg
+    - assets/image/image_recipe/recipe35.jpg
+    - assets/image/image_recipe/recipe36.jpg
+    - assets/image/image_recipe/detailRecipe.png
+    - assets/Template2/icon/iconAmerican.png
+    - assets/Template2/icon/iconBreakfast.png
+    - assets/Template2/icon/iconBurgers.png
+    - assets/Template2/icon/iconPizza.png
+    - assets/Template2/icon/bookmark.png
+    - assets/Template2/icon/photos.png
+    - assets/Template2/icon/ratting.png
+    - assets/Template2/icon/searchEmpty.png
+    - assets/Template2/icon/logout.png
+    - assets/Template2/icon/aboutApps.png
+    - assets/Template2/icon/callCenter.png
+    - assets/Template2/icon/editProfile.png
+    - assets/icon/share.png
+    - assets/icon/rattingPlus.png
+    - assets/icon/report.png
+    - assets/icon/bookmark.png
+    - assets/icon/wifi.png
+
+    - assets/Template2/profile.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
